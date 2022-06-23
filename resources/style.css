@@ -1,8 +1,8 @@
 body {
     display: grid;
-    min-width: 480px;
+    min-width: 100px;
     max-width: 1990px;
-    height: 650px;
+    height: 600px;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(3, 1fr);
     background-color: hsl(212, 45%, 89%);
@@ -11,12 +11,13 @@ body {
 }
 
 h2 {
-    padding-top: 320px;
+    padding-top: 305px;
     padding-left: 25px;
     padding-right: 25px;
     text-align: center;
     color: hsl(218, 44%, 22%);
     font-size: 20px;
+    margin-bottom: 5px;
 }
 
 p{
@@ -26,12 +27,14 @@ p{
     text-align: center;
     font-size: 15px;
     color: hsl(220, 15%, 55%);
+    margin-bottom: 5px;
 }
 
 .qr-background {
     grid-area: 2 / 2 / 3 / 3;
     background-color: hsl(0, 0%, 100%);
-    min-height: 497px;
+    box-shadow: -1px 12px 23px -4px rgb(31, 50, 81 / 9%);
+    min-height: 475px;
     max-width: 320px;
     border-radius: 15px;
 }
@@ -40,6 +43,6 @@ p{
     grid-area: 2 / 2 / 3 / 3;
     max-height: 275px;
     max-width: 275px;
-    margin-top: 20px;
-    border-radius: 15px;
+    margin: 15px;
+    border-radius: 12px;
 }
